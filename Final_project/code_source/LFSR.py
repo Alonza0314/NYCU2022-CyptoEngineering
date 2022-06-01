@@ -32,7 +32,7 @@ def lfsr(n):
     for round in range(n):
         if round!=0 and n>10 and round%10==0:
             seed=generate_seed()
-        new_bit=seed[4]^(seed[2]&seed[0])
+        new_bit=seed[4]^seed[2]^seed[0]
         return_key.append(str(new_bit))
         if round==n-1:
             break
