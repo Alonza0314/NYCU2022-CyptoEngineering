@@ -1,2 +1,2 @@
 # NYCU2022-CyptoEngineering
-Professor: Xie Zhi Ren
+Name of professor: Xie Zhi Ren
