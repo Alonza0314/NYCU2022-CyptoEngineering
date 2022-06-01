@@ -3,9 +3,6 @@
 傳入兩個bit
 然後回傳ATCG其中一個
 '''
-from sympy import appellf1
-
-
 def dna_table(first,second):
     if first=='0' and second=='0':
         return 'A'
